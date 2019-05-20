@@ -10,24 +10,30 @@ class ExpenseController extends Controller
     /**
      * GET /folders/{id}/tasks/create
      */
-    public function showCreateForm(int $id)
+    public function showCreateForm()
     {
-        return view('tasks/create', [
-            'folder_id' => $id
-        ]);
+        return view('expenses/create');
+    }
+
+    public function create(Request $request)
+    {
+        $task = new Expense();
+        $task->title = $request->title;
+        $task->price = $request->price;
+        $task->purchased_at = $request->purchased_at;
+
+        $task->save();
+
+        return redirect()->route('expenses.index');
     }
 
     public function index()
     {
-        // すべてのフォルダを取得する
         $tasks = Expense::all();
 
-        return view('tasks/index', [
+        return view('expenses/index', [
             'tasks' => $tasks,
         ]);
     }
 
-    public  function test(){
-        return view('test');
-    }
 }

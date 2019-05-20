@@ -19,15 +19,18 @@
                         @endforeach
                     </div>
                     @endif
-                    <form action="{{ route('tasks.create', ['id' => $folder_id]) }}" method="POST">
+                    <form action="/expenses/create" method="POST">
                         @csrf
                         <div class="form-group">
                             <label for="title">タイトル</label>
                             <input type="text" class="form-control" name="title" id="title" value="{{ old('title') }}" />
+                        </div><div class="form-group">
+                            <label for="title">金額</label>
+                            <input type="text" class="form-control" name="price" id="price" value="{{ old('price') }}" />
                         </div>
                         <div class="form-group">
-                            <label for="due_date">期限</label>
-                            <input type="text" class="form-control" name="due_date" id="due_date" value="{{ old('due_date') }}" />
+                            <label for="due_date">日付</label>
+                            <input type="text" class="form-control" name="purchased_at" id="purchased_at" value="{{ old('purchased_at') }}" />
                         </div>
                         <div class="text-right">
                             <button type="submit" class="btn btn-primary">送信</button>
@@ -44,9 +47,9 @@
 <script src="https://npmcdn.com/flatpickr/dist/flatpickr.min.js"></script>
 <script src="https://npmcdn.com/flatpickr/dist/l10n/ja.js"></script>
 <script>
-    flatpickr(document.getElementById('due_date'), {
+    flatpickr(document.getElementById('purchased_at'), {
         locale: 'ja',
-        dateFormat: "Y/m/d",
+        dateFormat: "Y-m-d",
         minDate: new Date()
     });
 </script>

@@ -8,7 +8,7 @@
                 <div class="panel-heading">タスク</div>
                 <div class="panel-body">
                     <div class="text-right">
-                        <a href="#" class="btn btn-default btn-block">
+                        <a href="{{ action('ExpenseController@create') }}" class="btn btn-default btn-block">
                             タスクを追加する
                         </a>
                     </div>
@@ -27,7 +27,7 @@
                     <tr>
                         <td>{{ $task->title }}</td>
                         <td>
-                            <span class="label {{ $task->status_class }}">{{ $task->price }}</span>
+                            <span class="label {{ $task->price }}">{{ $task->price }}</span>
                         </td>
                         <td>{{ $task->purchased_at }}</td>
                         <td><a href="#">編集</a></td>
