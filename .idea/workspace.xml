@@ -1,28 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2ce4266f-5035-4f2c-a4ee-df5faf3e682f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/expenses.frm" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/expenses.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/expenses.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/expenses.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/incomes.frm" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/incomes.frm" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/incomes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/incomes.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/database/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/users.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ib_logfile0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibdata1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/tasks/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/resources/views/expenses/create.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/tasks/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/resources/views/expenses/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/test.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/routes/web.php" afterDir="false" />
-    </list>
+    <list default="true" id="2ce4266f-5035-4f2c-a4ee-df5faf3e682f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -334,18 +313,17 @@
       <workItem from="1557990258631" duration="5409000" />
       <workItem from="1558066692026" duration="5375000" />
       <workItem from="1558098275964" duration="4645000" />
-      <workItem from="1558343634890" duration="7543000" />
+      <workItem from="1558343634890" duration="7915000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24322000" />
+    <option name="totallyTimeSpent" value="24694000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -362,7 +340,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23048328" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23048328" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32961586" />
       <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
