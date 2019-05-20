@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/expenses/create', 'ExpenseController@showCreateForm')->name('expenses.create');
 Route::post('/expenses/create', 'ExpenseController@create');
 Route::get('/expenses/', 'ExpenseController@index')->name('expenses.index');
+
+Route::get('/incomes/create', 'IncomeController@showCreateForm')->name('incomes.create');
+Route::post('/incomes/create', 'IncomeController@create');
+Route::get('/incomes/', 'IncomeController@index')->name('incomes.index');
