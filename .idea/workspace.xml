@@ -3,13 +3,25 @@
   <component name="ChangeListManager">
     <list default="true" id="2ce4266f-5035-4f2c-a4ee-df5faf3e682f" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/expenses.frm" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/expenses.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/expenses.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/expenses.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/incomes.frm" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/incomes.frm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/incomes.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/incomes.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/migrations.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/password_resets.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/database/users.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/database/users.ibd" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/ib_logfile0" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ib_logfile0" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/ibdata1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibdata1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/docker/db/data/ibtmp1" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/ibtmp1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/kanegon/database/seeds/UsersTableSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/seeds/UsersTableSeeder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_index_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" beforeDir="false" afterPath="$PROJECT_DIR$/docker/db/data/mysql/innodb_table_stats.ibd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/tasks/create.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/resources/views/expenses/create.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/tasks/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/resources/views/expenses/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/resources/views/test.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/kanegon/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/server/kanegon/routes/web.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,111 +37,65 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
-      <split-first>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/app/Expense.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-                  <folding>
-                    <element signature="e#7#23#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/UsersTableSeeder.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="79">
-                  <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
-                  <folding>
-                    <element signature="e#7#20#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/app/User.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="360">
-                  <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/DatabaseSeeder.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" selection-start-line="18" selection-end-line="18" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="345">
-                  <caret line="23" column="47" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="315">
-                  <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/resources/js/bootstrap.js">
-              <provider selected="true" editor-type-id="text-editor" />
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="390">
-                  <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-                  <folding>
-                    <element signature="e#7#22#0#PHP" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/server/kanegon/app/Income.php">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/app/Expense.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/routes/web.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="165">
+              <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/layout.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+              <folding>
+                <element signature="e#40#56#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/expenses/index.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/expenses/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -141,23 +107,36 @@
         <option value="$PROJECT_DIR$/docker/php/Dockerfile" />
         <option value="$PROJECT_DIR$/docker/php/php.ini" />
         <option value="$PROJECT_DIR$/server/index.html" />
-        <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
         <option value="$PROJECT_DIR$/docker-compose.yml" />
         <option value="$PROJECT_DIR$/server/kanegon/.env" />
-        <option value="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" />
-        <option value="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" />
         <option value="$PROJECT_DIR$/server/kanegon/database/seeds/IncomeTableSeeder.php" />
         <option value="$PROJECT_DIR$/server/kanegon/database/seeds/DatabaseSeeder.php" />
         <option value="$PROJECT_DIR$/server/kanegon/database/seeds/UserTableSeeder.php" />
         <option value="$PROJECT_DIR$/server/kanegon/app/User.php" />
         <option value="$PROJECT_DIR$/server/kanegon/app/Income.php" />
         <option value="$PROJECT_DIR$/server/kanegon/database/seeds/UsersTableSeeder.php" />
-        <option value="$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php" />
         <option value="$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/layout.blade.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/test.blade.php" />
+        <option value="$PROJECT_DIR$/docker/nginx/default.conf" />
+        <option value="$PROJECT_DIR$/server/kanegon/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/style.css" />
+        <option value="$PROJECT_DIR$/server/kanegon/public/css/styles.css.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/tasks/index.blade.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/tasks/create.blade.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/routes/web.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php" />
+        <option value="$PROJECT_DIR$/server/kanegon/resources/views/expenses/create.blade.php" />
       </list>
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration">
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.1">
     <include_path>
       <path value="$PROJECT_DIR$/laravel/vendor/psy/psysh" />
       <path value="$PROJECT_DIR$/laravel/vendor/symfony/process" />
@@ -248,8 +227,64 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'プロジェクト・ファイル'; set:プロジェクト・ファイル; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="docker" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="docker" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="nginx" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kanegon" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kanegon" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kanegon" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="kanegon_project" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="kanegon_project" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="server" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="kanegon" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="views" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="expenses" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane" />
     </panes>
   </component>
@@ -259,6 +294,9 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="editor.config.ad.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="Console" />
@@ -295,18 +333,19 @@
       <workItem from="1557989511119" duration="649000" />
       <workItem from="1557990258631" duration="5409000" />
       <workItem from="1558066692026" duration="5375000" />
-      <workItem from="1558098275964" duration="1143000" />
+      <workItem from="1558098275964" duration="4645000" />
+      <workItem from="1558343634890" duration="7543000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13277000" />
+    <option name="totallyTimeSpent" value="24322000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17095852" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17310444" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -314,7 +353,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3288889" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3283767" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -323,8 +362,10 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.23048328" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.23048328" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Thumbnails" order="12" weight="0.32961586" />
+      <window_info anchor="right" x="0" y="0" width="310" height="700" id="Documentation" side_tool="true" weight="0.3297568" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -396,13 +437,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="29" column="7" lean-forward="true" selection-start-line="29" selection-start-column="7" selection-end-line="29" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker-compose.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -410,24 +444,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2014_10_12_100000_create_password_resets_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2014_10_12_000000_create_users_table.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -452,13 +472,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/app/Expense.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/docker/php/Dockerfile">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -473,15 +486,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="42" lean-forward="true" selection-start-line="28" selection-start-column="42" selection-end-line="28" selection-end-column="42" />
+          <folding>
+            <element signature="e#7#23#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/vendor/composer/ClassLoader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="350" column="54" selection-start-line="350" selection-start-column="54" selection-end-line="350" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/.php" />
+    <entry file="file://$PROJECT_DIR$/server/kanegon/app/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/docker/nginx/default.conf">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="2" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/kanegon/resources/js/bootstrap.js">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+          <folding>
+            <element signature="e#7#22#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/kanegon/app/Income.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -490,40 +538,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/app/User.php">
+    <entry file="file://$PROJECT_DIR$/server/kanegon/vendor/phpunit/php-code-coverage/src/Report/Html/Renderer/Template/css/style.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/public/css/styles.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
+        <state relative-caret-position="690">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_045541_create_expenses_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2014_10_12_100000_create_password_resets_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/database/migrations/2019_05_17_050548_create_incomes_table.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="17" column="49" selection-start-line="17" selection-start-column="49" selection-end-line="17" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/test.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/app/Expense.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/layout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/UsersTableSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="6" column="37" lean-forward="true" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
+        <state relative-caret-position="90">
+          <caret line="6" column="37" selection-start-line="6" selection-start-column="37" selection-end-line="6" selection-end-column="37" />
           <folding>
             <element signature="e#7#20#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/IncomesTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/server/kanegon/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="29" lean-forward="true" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
+        <state relative-caret-position="165">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/expenses/index.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="37" lean-forward="true" selection-start-line="15" selection-start-column="37" selection-end-line="15" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server/kanegon/app/Http/Controllers/ExpenseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
           <folding>
-            <element signature="e#7#22#0#PHP" expanded="true" />
+            <element signature="e#40#56#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/kanegon/database/seeds/ExpensesTableSeeder.php">
+    <entry file="file://$PROJECT_DIR$/server/kanegon/resources/views/expenses/create.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="465">
-          <caret line="31" column="5" lean-forward="true" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
-          <folding>
-            <element signature="e#7#23#0#PHP" expanded="true" />
-          </folding>
+          <caret line="31" column="52" selection-start-line="31" selection-start-column="52" selection-end-line="31" selection-end-column="52" />
         </state>
       </provider>
     </entry>

@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/expenses/create', 'ExpenseController@showCreateForm')->name('expenses.create');
+Route::post('/expenses/create', 'ExpenseController@create');
+Route::get('/expenses/', 'ExpenseController@index')->name('expenses.index');
