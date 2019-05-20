@@ -36,4 +36,36 @@ class IncomeController extends Controller
         ]);
     }
 
+    public function showEditForm(int $income_id)
+    {
+        $income = Income::find($income_id);
+
+        return view('incomes/edit', [
+            'income' => $income,
+        ]);
+    }
+
+    public function edit(int $task_id, Request $request)
+    {
+        // 1
+        $task = Income::find($task_id);
+
+        // 2
+        $task->title = $request->title;
+        $task->price = $request->price;
+        $task->paid_at = $request->paid_at;
+
+        $task->save();
+
+        // 3
+        return redirect()->route('incomes.index');
+    }
+
+    public function delete(int $income_id)
+    {
+        $income = Income::find($income_id);
+        $income->delete();
+        return redirect()->route('incomes.index');
+    }
+
 }
