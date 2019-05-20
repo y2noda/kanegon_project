@@ -20,6 +20,7 @@
                         <th>金額</th>
                         <th>日付</th>
                         <th></th>
+                        <th></th>
                     </tr>
                     </thead>
                     <tbody>
@@ -27,10 +28,17 @@
                     <tr>
                         <td>{{ $task->title }}</td>
                         <td>
-                            <span class="label {{ $task->price }}">{{ $task->price }}</span>
+                            {{ $task->price }}円
                         </td>
                         <td>{{ $task->purchased_at }}</td>
-                        <td><a href="#">編集</a></td>
+                        <td><a href="{{route('expenses.edit', ['expense_id' => $task->id])}}">編集</a></td>
+                        <td>
+                            <form method="POST"
+                                  action="{{ route('expenses.delete', ['expense_id' => $task->id]) }}">
+                                @csrf
+                                <a href="javascript:void(0)" onclick="this.parentNode.submit()">削除</a>
+                            </form>
+                        </td>
                     </tr>
                     @endforeach
                     </tbody>
